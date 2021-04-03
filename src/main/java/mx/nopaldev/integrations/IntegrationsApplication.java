@@ -1,15 +1,8 @@
 package mx.nopaldev.integrations;
 
-
-import io.github.resilience4j.circuitbreaker.CircuitBreaker;
-import io.github.resilience4j.circuitbreaker.CircuitBreakerConfig;
-import io.github.resilience4j.circuitbreaker.CircuitBreakerRegistry;
 import mx.nopaldev.integrations.facades.BlogPostFacade;
-import mx.nopaldev.integrations.services.BlogPostService;
 import mx.nopaldev.integrations.services.impl.DefaultBlogPostService;
 
-import java.net.URISyntaxException;
-import java.time.Duration;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
